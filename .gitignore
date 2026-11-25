@@ -1,0 +1,28 @@
+# Secrets
+.env
+.env.local
+**/.env
+**/.env.local
+
+# Python
+**/__pycache__/
+*.pyc
+backend/.venv/
+backend/.pytest_cache/
+
+# Local database and portable Postgres binaries
+backend/.pgdata/
+backend/pgsql-portable/
+
+# Uploaded files and scratch work (may contain personal resumes)
+backend/storage/
+backend/.scratch/
+
+# Logs
+*.log
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
